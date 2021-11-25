@@ -1,6 +1,8 @@
-package com.shayekh.daggerimpl;
+package com.shayekh.daggerimpl.car;
 
 import android.util.Log;
+
+import com.shayekh.daggerimpl.car.Car;
 
 import javax.inject.Inject;
 

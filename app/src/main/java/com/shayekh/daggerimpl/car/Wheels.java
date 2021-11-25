@@ -1,6 +1,4 @@
-package com.shayekh.daggerimpl;
-
-import javax.inject.Inject;
+package com.shayekh.daggerimpl.car;
 
 // public class Wheels {
 //

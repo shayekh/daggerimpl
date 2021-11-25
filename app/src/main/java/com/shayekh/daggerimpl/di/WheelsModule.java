@@ -1,10 +1,14 @@
-package com.shayekh.daggerimpl;
+package com.shayekh.daggerimpl.di;
+
+import com.shayekh.daggerimpl.car.Rims;
+import com.shayekh.daggerimpl.car.Tires;
+import com.shayekh.daggerimpl.car.Wheels;
 
 import dagger.Module;
 import dagger.Provides;
 
 @Module
-public class WheelsModule {
+public abstract class WheelsModule {
 
     @Provides
     static Rims provideRims() {

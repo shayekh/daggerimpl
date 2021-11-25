@@ -1,4 +1,4 @@
-package com.shayekh.daggerimpl;
+package com.shayekh.daggerimpl.car;
 
 import android.util.Log;
 
@@ -21,8 +21,8 @@ public class Car {
         remote.setListener(this);
     }
 
-    public void drive()
-    {
+    public void drive() {
+        engine.start();
         Log.d(TAG, "driving..");
     }
 }
