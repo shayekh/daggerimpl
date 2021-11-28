@@ -1,13 +1,13 @@
 package com.shayekh.daggerimpl.car;
 
-import javax.inject.Inject;
-import javax.inject.Singleton;
-
-@Singleton
+//@Singleton
 public class Driver {
 
+    //we dont own this class
 
-    @Inject
-    public Driver() {
+    String name;
+    public Driver(String name)
+    {
+        this.name = name;
     }
 }
